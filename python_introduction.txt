@@ -1,0 +1,148 @@
+                                   PYTHON
+
+
+Introduction:-
+
+Python is a high level Interpreted,Dynamic,Functional programming language.
+ Easy to write and understanding ,Scripting , object oriented.
+
+It is used for:-
+
+web development,software development (server-side),
+mathematics,system scripting.
+Example:
+print("Hello, World!")
+
+Dynamic programming language:-
+
+   In Python, being a dynamic language means that type checking is
+   done at runtime rather than compile time.Variables in Python do not have fixed
+   types—you can assign a value of one type to a variable and later reassign a value
+   of a different type without any issues
+
+
+examples
+x = 10      # x is an integer
+x = "hello" # Now x is a string
+
+
+Interpreted programming language:-
+
+ Python is an interpreted programming language, meaning its code is executed
+ line by line at runtime rather than being compiled into machine code beforehand.
+ The Python interpreter reads and executes each statement dynamically, allowing for
+ flexibility and ease of debugging.
+
+                       Comparison between Java and python
+
+             JAVA                                                      PYTHON
+
+           Complex                                                    Easy,Readable
+           Statically typed                                          Dynamically typed
+           Faster                                                         Slower
+           Compiled                                                    Interpreted
+
+
+Python Software Foundation (PSF):
+
+          This nonprofit organization supports the Python programming language  and its community  It:
+Maintains Python’s core infrastructure (like python.org)
+Organizes events like PyCon
+Provides grants and funding for Python-related projects
+Promotes diversity and inclusion in tech
+
+Advantages:-
+
+  Easy to Learn & Use
+  Extensive Libraries
+  Cross-Platform Compatibility
+  Strong Community Support
+  Ideal for Rapid Development
+  Versatile Applications
+
+
+Disadvantages:-
+
+   Slower Execution Speed
+   High Memory Consumption
+   Limited Mobile Development
+   Global Interpreter Lock (GIL)
+Applications:-
+
+  Web Development
+  Data Science & Analytics
+  Artificial Intelligence & Machine Learning
+  Game Development
+  Cybersecurity
+  Automation & Scripting
+  Business & Enterprise Applications
+  Internet of Things (IoT)
+
+Comments:-
+            # comments it wont execute.
+
+
+Data Types:-
+
+           Integers  = 0,1,2,3,4….-1,-2,-3,......
+
+           Float   =  0.1,0.2,0.3,0.4,......-0.1,-0.2,-0.3,.....
+
+          String  =  “ abcd…ghij….ABCDEF…….
+
+           Boolean  = True or False
+
+
+Examples:-
+
+       X = 10 ( integer)
+
+       Y = 3.5 ( float )
+
+       Z = x+y     , print(z) = 13.5
+
+
+
+
+String:-
+
+   I = “Bharath”         j = “Ashok”
+
+   print(i+j) = Bharathanu
+
+Xx  = “123”    yy = “132.5”
+Print ( xx + yy ) =  123132.5
+
+
+Conditions:-
+
+           Str + Str = add
+
+           Str * Str =  Multi
+
+           Int + Int = add
+
+           Int + Float = add
+
+           Float + Float = add
+
+           Int + Str = error
+                                              :-  called  Concatenation Error
+           Float + Str = error
+
+
+G = ‘’’ Helo bharath’’’
+                                      :-   Is also Strings
+G = “””Helo bharath”””
+
+Boolean:-
+          X =10        Y =3.5   Z = “Bharath”    K = “Ashok”
+
+                  print(X>Y)  = True
+
+                  print(X<Y) =  False
+
+                  print(Z = K) = False
+
+
+
