@@ -97,19 +97,50 @@ print(x)
 
 
 
+# Online Python compiler (interpreter) to run Python online.
+"""
+loops
+------
+for
+while
+
+continue 
+break
+--------
+data structure 
+list
+tuple
+dict
+set
+
+"""
+
+
+x="write python 3 code in this online editor and run it."
+for i in range(len(x)):
+    if x[i] =="3":#3==3
+        print("value is:",int(x[i])*9)
+        break
+print(x[i])
 
 
 
 
+x="write python 3 code in this online editor and run it."
+for i in x.split():
+    print(i)
 
 
 
+x="write  3 code in this online editor and run it."
+for i in x.split():
+    if i.islower():
+        print(i.upper())
 
 
-
-
-
-
+x="write  3 code in this online editor and run it."
+for i in x.split("3"):
+    print(i)
 
 
 
