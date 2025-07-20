@@ -1,0 +1,33 @@
+ Git – Core Concepts:-
+
+
+- Version Control System: Git tracks changes in source code during software development.
+- Snapshots, not differences: Git saves the entire state of a project, not just the changes.
+- Local-first: You work locally and push changes to remote repositories when ready.
+- Branches: Create isolated environments for features or fixes (git branch, git checkout).
+- Merge & Rebase: Combine changes from different branches (git merge, git rebase).
+- Staging Area: Prepare changes before committing (git add, git commit).
+- Distributed: Every developer has a full copy of the repository.
+
+
+🔗 GitHub – Collaboration Platform:-
+
+- Remote Hosting: GitHub hosts Git repositories online.
+- Pull Requests: Propose changes and review code before merging.
+- Issues & Discussions: Track bugs, enhancements, and collaborate.
+- Actions: Automate workflows like testing and deployment.
+- Forking: Copy someone’s repo to your account to experiment independently.
+- Stars & Watch: Bookmark and follow projects you like.
+
+
+⚡ Common Git Commands:-
+
+
+git init           # Initialize a new Git repository
+git clone <url>    # Copy a remote repository
+git status         # Check current changes
+git add <file>     # Stage changes
+git commit -m "msg" # Save changes with a message
+git push           # Upload changes to GitHub
+git pull           # Download changes from GitHub
+
