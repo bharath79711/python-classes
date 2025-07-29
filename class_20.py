@@ -1,4 +1,4 @@
-"""
+
 class Department:
     def method(self,list_sequence):
         result=[]
@@ -19,7 +19,7 @@ print(x)
 
 y= Dep_obj.method2("Talari Bharath")
 print(y)
-"""
+
 """
 class student:
     def greet(self,name):
@@ -135,6 +135,7 @@ Bio_data=Bio_ob.inf()
 print("person Bio data :",Bio_data)
 
 """
+"""
 
 
 class person :
@@ -163,3 +164,4 @@ Bio_data=Bio_ob.inf()
 x={}
 x[Bio_ob.name]=Bio_data
 print(x)
+"""
