@@ -491,5 +491,64 @@ M3:log file creation
 logging.basicConfig(filename="logs.log",level=logging.DEBUG)
 -------------------------------------------------------------------------------------------------------------
 
+OOPS: Object Oriented Programming System
+    - code repeatability reduce
+    - using class keyword we can represent
+
+Methods:
+    - Instance method: whenever self keyword is there is called
+    - class method: when argument is cls it is called as class method and
+                    # we have to represent by using @classmethod
+    - static method: if you don't need cls or self arguments passing to
+                    # method you can using @staticmethod
+    - constructor or initializer
+    - Destructure: if you want to delete Object, _del_ method
+
+
+
+
+1) Inheritance
+2) polymorphism
+3) Encapsulation
+
+-----
+4) Abstract
+
+# Defining class
+class Employee:# class Name
+    pass
+
+ee = Employee()# Object or instance of the class
+print(ee)
+
+
+"""
+"""
+OOPS:
+
+1) Inheritance
+    i) single inheritance: single parent class to child class.
+                    Ex: parent and child
+    ii) multi level inheritance:one parent class to other child class from that to another child class
+                    Ex: grand_father+ father = child
+    iii) multiple inheritance:two parent classes methods we can inherit to child class
+                    Ex:father+mother = child
+    iv) hierarchical inheritance: we can inherit single base class to many child classes
+
+2) polymorphism:this is called a method overriding or method overloading
+3) Encapsulation: means data hiding or protecting or data binding
+    -- public: you can access anywhere
+    -- protected: you can access outside of the function but specifuc respective of the object using underscore (_)
+    -- private: you are not able access private methods are variable outside of the function
+                : if you want access you have to provide 
+                # object.classname_privatemethod()
+    
+4) abstract method: From Abc import abstractmethod and ABC
+                    # @abstractmethod
+                    # abstract means hiding
+__________________________________________________________________________________________________________________
+#Multi threading and multi processing
+if you want to run multiple functions or classes parallel to reduce time
+___________________________________________________________________________________________________________________
 
 
